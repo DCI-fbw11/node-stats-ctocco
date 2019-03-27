@@ -1,0 +1,31 @@
+{
+  "name": "cli-node-stats",
+  "version": "1.0.0",
+  "description": "an app to find node module folder size",
+  "main": "findModulesFolder.js",
+  "scripts": {
+    "start": "nodemon ./lib/findModulesFolder.js",
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DCI-fbw11/node-stats-ctocco.git"
+  },
+  "keywords": [
+    "app",
+    "size"
+  ],
+  "author": "Claudio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DCI-fbw11/node-stats-ctocco/issues"
+  },
+  "homepage": "https://github.com/DCI-fbw11/node-stats-ctocco#readme",
+  "devDependencies": {
+    "jest": "^24.5.0",
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "calculator": "git+ssh://git@github.com/DCI-fbw11/calculator-ctocco.git"
+  }
+}
